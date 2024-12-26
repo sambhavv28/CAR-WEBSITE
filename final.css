@@ -1,0 +1,1134 @@
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.main{
+
+  width: 100%;
+}
+.top{
+  width: 100%;
+  height: 80px;
+  box-shadow: 0  4px  12px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  /* position: sticky; */
+  top: 0;
+  background-color: black;
+}
+.first {
+  font-size: 50px;
+  color: #f5f5f6;
+  padding-left: 70px;
+}
+.search{
+  width: 480px;
+  margin-left: 500px;
+  background-color: #f5f5f6;
+  display: flex;
+  gap: 20px;
+  padding: 13px;
+  border-radius: 4px 4px 4px 4px;
+}
+.search input{
+  background-color: transparent;
+  border: none;
+  flex-grow: 1;
+  border-left: white solid 1px;
+}
+.search input:focus{
+  border: none;
+  outline: none;
+}
+.user{
+  width: 250px;
+  margin-left: 40px;
+  display: flex;
+  gap: 40px;
+  color: #f5f5f6;
+}
+.user-box{
+  display: flex;
+  /* border: 2PX solid RED; */
+  flex-direction: column;
+  align-items: center;
+  color: #f5f5f6;
+}
+.user-box i{
+  font-size: 18px;
+  font-weight: 500;
+}
+.user-box span{
+  font-size: 16px;
+  font-family: "Assistant", sans-serif;
+  font-weight: 700;
+}
+
+.nevigation{
+  /* border: 2px solid white; */
+  background-color: black;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0505058f;  
+  top: 0;
+  width: 100%;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  /* background-color: #dddddd;  */
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.three{
+  /* border: 2px solid white; */
+  background-color: black;
+}
+
+.three {
+  height: 650px;
+  width: 1517px;
+  overflow: hidden;
+  position: relative;
+}
+
+.three video {
+  min-width: 100%; 
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.three .four {
+  z-index: 1;
+  position: relative;
+  color: white;
+  padding-top: 300px;
+  padding-left: 20px;
+}
+
+
+.button1{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.button2{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.button2:hover{
+  background-color: #5353538f;
+}
+
+.button1:hover{
+  background-color: #5353538f;
+}
+
+.five{
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+} 
+
+.five ul {
+  /* list-style-type: none; */
+  /* margin: 0; */
+  width: 916px;
+  height: 50px;
+  padding-left: 600px;
+  overflow: hidden;
+  background-color: white;
+  /* position: -webkit-sticky; /* Safari */
+  /* position: sticky;
+  top: 0; */ 
+}
+
+li {
+  float: left;
+}
+
+.five li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.five li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.six{
+  border: 2px solid white;
+  background-color: white;
+  width: 1600px;
+}
+
+.six p{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  padding-left: 50px;
+}
+
+
+.photos {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  display: flex;
+}
+
+.image  {
+  display: block;
+  width: 800px;
+  height: 600px;
+  /* padding: 60px; */
+  display: flex;
+  justify-content: right;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 760px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.pic:hover .overlay {
+  opacity: 1;
+}
+
+.button3{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button3:hover{
+  background-color: black;
+  color: white;
+}
+
+.seven{
+  /* border: 2px solid black; */
+  height: 500px;
+}
+
+.photo  {
+  display: block;
+  width: 800px;
+  height: 600px;
+  /* padding: 60px; */
+  display: flex;
+  justify-content: right;
+}
+
+.seven:hover .haha {
+  opacity: 1;
+}
+
+
+
+.haha {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 640px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  /* padding-bottom: 110px; */
+  /* margin-bottom: 100px; */
+  margin-left: 15px;
+
+}
+
+.pic:hover .haha {
+  opacity: 1;
+}
+
+.button4{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button4:hover{
+  background-color: black;
+  color: white;
+}
+
+.eight{
+  background-color: white;
+  width: 1000000px;
+}
+
+
+.eight {
+  position: relative;
+  text-align: center;
+  /* width: 50%; */
+  /* max-width: 300px; */
+  background-color: white;
+}
+
+.photo1 {
+  display: block;
+  width: 1520px;
+  padding-top: 20px;
+}
+
+.haha1 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 700px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  /* margin-left: 50px; */
+  
+}
+
+.eight:hover .haha1 {
+  opacity: 1;
+}
+
+.button5{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button5:hover{
+  background-color: black;
+  color: white;
+}
+
+.nine{
+  border: 2px solid white;
+  background-color: white;
+  width: 1600px;
+}
+
+.nine p{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  padding-left: 50px;
+}
+
+div.ten {
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+  /* padding: 10px; */
+  display: flex;
+}
+
+div.ten img {
+  padding: 10px;
+}
+
+.haha2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.eleven:hover .haha2 {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  /* position: absolute; */
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .eleven {
+  position: relative;
+  width: 50%;
+} 
+
+.button6{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button6:hover{
+  background-color: black;
+  color: white;
+}
+
+.haha3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.twelve:hover .haha3 {
+  opacity: 1;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  /* position: absolute; */
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .twelve {
+  position: relative;
+  width: 50%;
+} 
+
+.button7{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button7:hover{
+  background-color: black;
+  color: white;
+}
+
+.haha4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.thirteen:hover .haha4 {
+  opacity: 1;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  /* position: absolute; */
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .thirteen {
+  position: relative;
+  width: 50%;
+} 
+
+.button8{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button8:hover{
+  background-color: black;
+  color: white;
+}
+
+.haha5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fourteen:hover .haha5 {
+  opacity: 1;
+}
+
+.text3 {
+  color: white;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .fourteen {
+  position: relative;
+  width: 50%;
+} 
+
+.button9{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button9:hover{
+  background-color: black;
+  color: white;
+}
+
+.haha6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fifteen:hover .haha6 {
+  opacity: 1;
+}
+
+.text4 {
+  color: white;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .fifteen {
+  position: relative;
+  width: 50%;
+} 
+
+.button10{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button10:hover{
+  background-color: black;
+  color: white;
+}
+
+.haha7 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sixteen:hover .haha7 {
+  opacity: 1;
+}
+
+.text5 {
+  color: white;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .sixteen {
+  position: relative;
+  width: 50%;
+} 
+
+.button11{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button11:hover{
+  background-color: black;
+  color: white;
+}
+
+.haha8 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.seventeen:hover .haha8 {
+  opacity: 1;
+}
+
+.text6 {
+  color: white;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .seventeen {
+  position: relative;
+  width: 50%;
+} 
+
+.button12{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button12:hover{
+  background-color: black;
+  color: white;
+}
+
+.haha9 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.eighteen:hover .haha9 {
+  opacity: 1;
+}
+
+.text7 {
+  color: white;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .eighteen {
+  position: relative;
+  width: 50%;
+} 
+
+.button13{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button13:hover{
+  background-color: black;
+  color: white;
+}
+
+.haha10 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nineteen:hover .haha10 {
+  opacity: 1;
+}
+
+.text8 {
+  color: white;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .nineteen {
+  position: relative;
+  width: 50%;
+} 
+
+.button14{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button14:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.haha11 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.twenty:hover .haha11 {
+  opacity: 1;
+}
+
+.text9 {
+  color: white;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .twenty {
+  position: relative;
+  width: 50%;
+} 
+
+.button15{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button15:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.haha12 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tone:hover .haha12 {
+  opacity: 1;
+}
+
+.text10 {
+  color: white;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .tone {
+  position: relative;
+  width: 50%;
+} 
+
+.button16{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button16:hover{
+  background-color: black;
+  color: white;
+}
+
+.haha13 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ttwo:hover .haha13 {
+  opacity: 1;
+}
+
+.text11 {
+  color: white;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .ttwo {
+  position: relative;
+  width: 50%;
+} 
+
+.button17{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button17:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.button18{
+  background-color: transparent;
+  /* border-radius: 12px; */
+  /* border-color: white; */
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 40px 60px; */
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content:space-between; 
+}
+
+.button18:hover{
+  background-color: rgb(78, 78, 78);
+  color: black;
+}
+
+.twenty{
+  background-color: white;
+  border: solid 2px white;
+  width: 5000px;
+  padding-left: 50px;
+  font-size: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.twenty1{
+  background-color: white;
+  padding-left: 50px;
+  border: solid 2px white;
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+}
+
