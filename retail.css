@@ -1,0 +1,30 @@
+body{
+background: url(retailp.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.wrapper {
+    text-align: center;
+    padding-bottom: 450px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sambhav{
+    text-align: center;
+    border: 2px solid black;
+    background-color: black;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: white;
+    padding-top: 20px;
+
+}
+input#name{
+      position: relative;
+        width: 50%;
+        height: 15px;
+    
+        
+}

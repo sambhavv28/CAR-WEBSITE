@@ -1,0 +1,28 @@
+form{
+    text-align: center;
+    border: 2px solid black;
+    width: 400px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: black;
+}
+ form#h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 200;
+    /* padding-right: 120px; */
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: url(retailp.jpg);
+    background-size: cover;
+    background-position: center;
+}

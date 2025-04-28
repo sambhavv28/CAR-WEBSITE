@@ -1,0 +1,693 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Assistant", sans-serif;
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.main{
+
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0  4px  12px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.nav div a{
+    padding-right:17px;
+    padding-left: 15px;
+}
+
+.nav_in1 a{
+    padding-bottom: 25px;
+    margin-top: 33px;
+    border-bottom: 5px solid transparent;
+}
+.nav_in1 a:hover{
+    transition-duration: 500ms;
+    cursor: pointer;
+    border-bottom:#ee5f73 5px solid;
+}
+.nav_in2 a{
+    padding-bottom: 25px;
+    margin-top: 33px;
+    border-bottom: 5px solid transparent;
+}
+.nav_in2 a:hover{
+    transition-duration: 500ms;
+    cursor: pointer;
+    border-bottom:#fb56c1 5px solid;
+}
+.nav_in3 a{
+    padding-bottom: 25px;
+    margin-top: 33px;
+    border-bottom: 5px solid transparent;
+}
+.nav_in3 a:hover{
+    transition-duration: 500ms;
+    cursor: pointer;
+    border-bottom:#f26a10 5px solid;
+}
+.nav_in4 a{
+    padding-bottom: 25px;
+    margin-top: 33px;
+    border-bottom: 5px solid transparent;
+    display: inline-block;
+}
+.nav_in4 a:hover{
+    transition-duration: 500ms;
+    cursor: pointer;
+    border-bottom:#f2c210 5px solid;
+}
+.nav_in5 a{
+    padding-bottom: 25px;
+    margin-top: 33px;
+    border-bottom: 5px solid transparent;
+}
+.nav_in5 a:hover{
+    transition-duration: 500ms;
+    cursor: pointer;
+    border-bottom:#0db7af 5px solid;
+}
+.nav_in6 a{
+    padding-bottom: 25px;
+    margin-top: 33px;
+    border-bottom: 5px solid transparent;
+}
+.nav_in6 a:hover{
+    transition-duration: 500ms;
+    cursor: pointer;
+    border-bottom:#ff3f6c 5px solid;
+}
+.logo{
+    width: 53px;
+    height: 80px;
+    margin-left: 60px;
+    background: url(../Myntra\ photos/11.png);
+    background-position: -431px -76px;
+    background-size: 1310px;
+    margin-right: 60px;
+}
+.nav{
+    width: 515px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #282c3f;
+    font-weight: 700;
+    font-family: "Assistant", sans-serif;
+}
+.search{
+    width: 480px;
+    margin-left: 40px;
+    background-color: #f5f5f6;
+    display: flex;
+    gap: 20px;
+    padding: 13px;
+    border-radius: 4px 4px 4px 4px;
+}
+.search input{
+    background-color: transparent;
+    border: none;
+    flex-grow: 1;
+    border-left: white solid 1px;
+}
+.search input:focus{
+    border: none;
+    outline: none;
+}
+.user{
+    width: 250px;
+    margin-left: 40px;
+    display: flex;
+    gap: 40px;
+}
+.user-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-box i{
+    font-size: 18px;
+    font-weight: 500;
+}
+.user-box span{
+    font-size: 16px;
+    font-family: "Assistant", sans-serif;
+    font-weight: 700;
+}
+.shop{
+    margin-top: 25px;
+}
+.image1 img{
+    width: 100%;
+}
+.midimg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.shopa{
+    display: flex;
+}
+.nivea img{
+    width: 100%;
+}
+.dc{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.dc img{
+    width: 100%;
+}
+.crazydeals{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.crazydeals img{
+    width: 100%;
+}
+.categoryrow{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+}
+.categoryrow img{
+    width: 100%;
+}
+.categoryrowlast{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+.categoryrowlast img{
+    width: 100%;
+}
+.footer-container{
+    max-width: 1080px;
+    margin: auto;
+}
+.footer-whole{
+    background-color: #FAFBFC;
+    padding: 30px 0px 40px 0px;
+}
+.infoflex{
+    display: flex;
+    padding-bottom: 20px;
+}
+.info{
+    padding-right: 20px;
+}
+.info h5{
+    padding-bottom: 20px;
+}
+.info ul{
+    padding: 0;
+    list-style: none;
+    color: #696b79;
+    display: flex;
+    flex-direction: column;
+}
+.info ul li{
+    padding-bottom: 5px;
+}
+.customerpol{
+    margin-right: 50px;
+}
+.customerpol h5{
+    padding-bottom: 20px;
+}
+.customerpol ul{
+    list-style: none;
+    color: #696b79;
+    display: flex;
+    flex-direction: column;
+}
+.customerpol ul li{
+    padding-bottom: 5px;
+}
+.appexp{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: row;
+}
+.exp{
+    padding-bottom: 20px;
+
+}
+.expimg{
+    display: flex;
+    padding-bottom: 20px;
+}
+.exp h5{
+    padding-bottom: 20px;
+}
+.exp img{
+    margin-right: 10px;
+    height: 42px;
+}
+.touch h5{
+    padding-bottom: 20px;
+}
+.touch img{
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+.promise{
+    margin-left: 65px;
+    color: #94969f;
+}
+.promise b{
+    color: black;
+}
+.promise1{
+    display: flex;
+    width: 250px;
+    padding-bottom: 30px;
+}
+.head{
+    display: flex;
+    margin-bottom: 20px;
+}
+.line{
+    margin-left: 5px;
+    margin-top: 9px;
+    height: 1px;
+    background-color: #eaeaec;
+    flex-grow: 1;
+}
+.search-links{
+    color: #696b79;
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+.popular-foot{
+    display: flex;
+    justify-content: space-between;
+    color: #696b79;
+}
+.touchimg{
+    display: flex;
+}
+.offdet{
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #eaeaec;
+    display: flex;
+}
+.offadd{
+    margin-right: 350px;
+}
+.offadd h5{
+    padding-bottom: 25px;
+}
+.offadd p{
+    color: #94969f;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.offtel p{
+    color: #94969f;
+}
+.offtel{
+    width: 30%;
+    align-self: flex-end;
+}
+.madeeasy{
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: #eaeaec 1px solid;
+}
+.madeeasy h5{
+    padding-bottom: 5px;
+}
+.madeeasy p{
+    color: #94969f;
+    font-size: 14px;
+    line-height: 18px;
+}
+.site{
+    margin-top: 30px;
+}
+.site p{
+    color: #94969f;
+    font-size: 14px;
+    line-height: 18px;
+}
+.site ol{
+    list-style: decimal;
+    padding-left: 40px;
+    margin-top: 10px;
+    color: #94969f;
+    font-size: 14px;
+    line-height: 18px;
+}
+.site ol li{
+    padding-bottom: 15px;
+}
+.site ol li b{
+    color: black;
+}
+.site h5{
+    padding-bottom: 5px;
+}
+.affp{
+    padding-bottom: 30px;
+}
+.insider h5{
+    color: black;
+    padding-bottom: 5px;
+    font-size:small;
+}
+.insider{
+    color: #94969f;
+    font-size: 14px;
+    line-height: 18px;
+}
+.insider p{
+    padding-bottom: 20px;
+}
+.insider ul{
+    padding-left: 35px;
+}
+.insider ul li{
+    padding-bottom: 14px;
+}
+.insul h5{
+    padding-bottom:15px;
+}
+.stdp h4{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.stdp p{
+    padding-bottom: 15px;
+    color: #94969f;
+}
+.studio ol{
+    list-style: decimal;
+    padding-left: 40px;
+    margin-top: 10px;
+    color: #94969f;
+    font-size: 14px;
+    line-height: 18px;
+}
+.studio ol li b{
+    color: black;
+    padding-bottom: 15px;
+    display: block;
+}
+.studio ol li{
+    padding-bottom: none;
+}
+.studio ol li p{
+    margin-bottom: 15px;
+}
+.history{
+    margin-top: 30px;
+}
+.history h5{
+    margin-bottom: 5px;
+}
+
+.firstp{
+    color: #94969f;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 15px;
+}
+.history p{
+    color: #94969f;
+    font-size: 14px;
+    line-height: 18px;
+}
+.handlbanner{
+    padding: 0 60px;
+}
+.handlbanner img{
+    width: 100%;
+}
+.handlstuff{
+    display: flex;
+    padding-left: 60px;
+}
+.handlinside{
+    display: flex;
+}
+.handlmid h4{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    margin: 50px 0 10px 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.handlrow img{
+    width: 100%;
+}
+.handlrow{
+    display: flex;
+    width: 1010px;
+    height: 420px;
+}
+.sidelinks{
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 35%;
+}
+.sidestuff{
+    margin: auto;
+}
+.sidelinks ul{
+    list-style: none;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+.handlrow div{
+    padding-right: 10px;
+}
+.rowimg1{
+    background: url(../Myntra\ photos/bed.png);
+    width: 64.5%;
+    background-size:495px 420px;
+    background-position: 1px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.rowimg1:hover{
+    background-size:500px 427px;
+    background-position: -1px 0px;
+    cursor: pointer;
+}
+.rowimg3{
+    background: url(../Myntra\ photos/art-n-decor.png);
+    width: 64.5%;
+    background-size:495px 420px;
+    background-position: 1px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.rowimg3:hover{
+    background-size:500px 427px;
+    background-position: -1.5px 0px;
+    cursor: pointer;
+}
+.rowimg2{
+    background: url(../Myntra\ photos/furnishings.png);
+    width: 64.5%;
+    background-size:495px 420px;
+    background-position: 1px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.rowimg2:hover{
+    background-size:500px 427px;
+    background-position: -1.5px 0px;
+    cursor: pointer;
+}
+.rowimg4{
+    background: url(../Myntra\ photos/lamps.png);
+    width: 64.5%;
+    background-size:495px 420px;
+    background-position: 1px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.rowimg4:hover{
+    background-size:500px 427px;
+    background-position: -1.5px 0px;
+    cursor: pointer;
+}
+.rowimg5{
+    background: url(../Myntra\ photos/kitchen.png);
+    width: 64.5%;
+    background-size:495px 420px;
+    background-position: 1px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.rowimg5:hover{
+    background-size:500px 427px;
+    background-position: -1.5px 0px;
+    cursor: pointer;
+}
+.rowimg6{
+    background: url(../Myntra\ photos/bath.png);
+    width: 64.5%;
+    background-size:495px 420px;
+    background-position: 1px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.rowimg6:hover{
+    background-size:500px 427px;
+    background-position: -1.5px 0px;
+    cursor: pointer;
+}
+.inspired{
+    max-width: 2000px;
+    height: 500px;
+    display: flex;
+    background-color: rgb(239, 237, 237);
+    padding: 60px;
+    padding-top: 0;
+    margin-top: -3px;
+    margin-bottom: 120px;
+}
+.insimg1{
+    display: flex;
+    width: 100%;
+    height: 490px;
+    background: url(../Myntra\ photos/Wedding-checklist.png);
+    background-size: 466px 490px;
+    background-position: 0px;
+    transition-duration: 500ms;
+    background-repeat: no-repeat;
+}
+.insimg1:hover{
+    background-size: 481px 508px;
+    background-position: -7px;
+}
+.insimg2{
+    display: flex;
+    width: 100%;
+    height: 490px;
+    background: url(../Myntra\ photos/colorofseason.png);
+    background-size: 466px 490px;
+    background-position: 0px;
+    transition-duration: 500ms;
+    background-repeat: no-repeat;
+}
+.insimg2:hover{
+    background-size: 481px 508px;
+    background-position: -7px;
+}
+.insimg3{
+    width: 100%;
+    height: 490px;
+    background: url(../Myntra\ photos/handi.png);
+    background-size: 466px 490px;
+    background-position: 0px;
+    transition-duration: 500ms;
+    background-repeat: no-repeat;
+}
+.insimg3:hover{
+    background-size: 481px 508px;
+    background-position: -7px;
+}
+.featured{
+    margin-left: 100px;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.featimg{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.feat1{
+    width: 100%;
+    height: 200px;
+    background: url(../Myntra\ photos/swayam.jpg);
+    background-size: 283px 200px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.feat1:hover{
+    background-position: -4.5px 0px;
+    background-size: 289px 205px;
+}
+.feat2{
+    width: 100%;
+    height: 200px;
+    background: url(../Myntra\ photos/handm.jpg);
+    background-size: 283px 200px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.feat2:hover{
+    background-position: -9px -1px;
+    background-size: 301px 210px;
+}
+.feat3{
+    width: 100%;
+    height: 200px;
+    background: url(../Myntra\ photos/spaces.png);
+    background-size: 249px 126px;
+    background-position: 15px -10px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.feat3:hover{
+    background-position: 11px -10px;
+    background-size: 257px 131px;
+}
+.feat4{
+    width: 100%;
+    height: 200px;
+    background: url(../Myntra\ photos/marks.png);
+    background-size: 283px 180px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.feat4:hover{
+    background-position: -10px 0px;
+    background-size: 301px 180px;
+}
+.feat5{
+    width: 100%;
+    height: 200px;
+    background: url(../Myntra\ photos/decor.png);
+    background-size: 283px 170px;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.feat5:hover{
+    background-position: -7px 0px;
+    background-size: 301px 180px;
+}

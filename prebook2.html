@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Pre-Booking Form</title>
+    <link rel="stylesheet" href="prebook3.css">
+</head>
+<body>
+    
+    <form action="/submit-prebooking" method="post">
+        <h2>Car Pre-Booking Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="ENTER YOUR NAME"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="ENTER YOUR EMAIL"><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="ENTER YOUR PHONE NO"><br><br>
+
+        <label for="car-model">Select Car Model:</label>
+        <select id="car-model" name="car-model" required>
+            <option value="">--Select Model--</option>
+            <option value="Model S"> BMW I7</option>
+            <option value="Model X">Mercedes-Benz MAYBACH</option>
+            <option value="Model 3">Mercedes-Benz G CLASS</option>
+            <option value="Model Y">LANDROVER SPORT</option>
+  
+        </select><br><br>
+
+        <label for="booking-date">Preferred Booking Date:</label><br>
+        <input type="date" id="booking-date" name="booking-date" required><br><br>
+
+
+        <label for="payment-link">Make Payment:</label><br>
+        <a id="payment-link" href="https://pay.google.com/intl/en_in/about/" target="_blank" style="color: beige;">Click here to make payment</a><br><br>
+
+        <input type="submit" value="Pre-Book">
+    </form>
+</body>
+</html>

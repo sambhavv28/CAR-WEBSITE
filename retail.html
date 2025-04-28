@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="retail.css">
+    <title>Retailer Finder</title>
+    <script>
+        function showRetailers() {
+            var location = document.getElementById("location").value;
+            var retailers = {
+                "jaipur": ["BMW Pratap Motorrad",
+                 "Mercedes-Benz T&T", 
+                 "Land Rover Amp Motors"],
+
+                "New delhi": ["BMW Infinity Cars", 
+                "Mercedes-Benz Silver Arrows",
+                 "Land Rover Amp Motors"],
+
+                "mumbai": ["BMW Showroom, Malad (W)",
+                 "Mercedes Benz Showroom Mumbai", 
+                 "Navnit Motors"]
+            };
+            
+            var retailerList = document.getElementById("retailer-list");
+            retailerList.innerHTML = ""; // Clear previous list
+
+            if (location in retailers) {
+                retailers[location].forEach(function(retailer) {
+                    var listItem = document.createElement("li");
+                    listItem.textContent = retailer;
+                    retailerList.appendChild(listItem);
+                });
+            } else {
+                var listItem = document.createElement("li");
+                listItem.textContent = "No retailers found in this location.";
+                retailerList.appendChild(listItem);
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Find Retailers of your dream car </h2>
+    </div>
+
+    <div class="sambhav">
+        <form id="register" method="post"></form>
+            <label > First Name: </label>
+            <!-- <br> -->
+            <input type="text" name="fname" id="name" placeholder="Enter your First name ">
+            <br><br>
+            <label > Last Name: </label>
+            <!-- <br> -->
+            <input type="text" name="fname" id="name" placeholder="Enter your Lirst name ">
+            <br><br>
+            <label >pin code</label>
+            <!-- <br> -->
+            <input type="text" name="pin" id="pin" maxlength="6" size="6">
+            <br><br>
+        <form>
+
+        <label for="location">Select Location:</label>
+        <select id="location" name="location" onchange="showRetailers()">
+            <option value="">--Select--</option>
+            <option value="jaipur">jaipur</option>
+            <option value="New delhi">New delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <!-- Add more locations as needed -->
+        </select>
+     </form>
+    
+     <h3>Retailers:</h3>
+     <p id="retailer-list"></p> 
+    </div>
+
+</body>
+</html>
